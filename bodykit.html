@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Oliwier Gębczyński 2020" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Body-Kit</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <figure>
+          <img src="/css/zdjecia/logo.jpg" alt="logo strony" />
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li>
+              <a href="index.html">Oferta</a>
+              <ul>
+                <li><a href="bodykit.html">Body-Kit</a></li>
+                <li><a href="oklejanie.html">Oklejanie aut</a></li>
+                <li><a href="felgi.html">Wymiana felg</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html">Kontakt</a></li>
+            <li id="logowanieprzycisk">
+              <a href="logowanie.html">Logowanie</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="bodykitzdj">
+        <figure id="bodykit">
+          <img src="/css/zdjecia/bmw.png" />
+        </figure>
+        <figure>
+          <img id="bodykittitle" src="/css/zdjecia/bodykittitle.png" />
+        </figure>
+      </section>
+      <main class="maindlaoferty">
+        <article>
+          <p>
+            Posiadamy dużą ofertę gotowych dokładek. Skontaktuj się z nami, a
+            pomożemy dobrać Tobie odpowiednie dokładki do twojego auta. Tego
+            typu zamówienie jest szybką drogą na polepszenie wyglądu auta.
+            Jesteśmy w stanie także stworzyć od początku do końca indywidualnie
+            spersonalizowany i zaprojektowany Body-Kit. Takie zamówienie jest
+            bardziej czasochłonne i droższe, lecz warte efektu końcowego.
+          </p>
+        </article>
+
+        <form>
+          <h2>Wycienimy twoje zlecenie w ciągu 24h!</h2>
+          <textarea
+            name="texarea"
+            class="textarea"
+            placeholder="Napisz swoje zlecenie"
+          ></textarea>
+          <input type="text" name="email" class="email" placeholder="Email" />
+          <input type="submit" value="Wyślij" class="wyslij" />
+        </form>
+      </main>
+      <footer>
+        <p>&copy; Oliwier Gębczyński 2020</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/bodykitapp.js"></script>
+  </body>
+</html>

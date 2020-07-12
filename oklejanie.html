@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Oliwier Gębczyński 2020" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Oklejanie aut</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <figure>
+          <img src="/css/zdjecia/logo.jpg" alt="logo strony" />
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li>
+              <a href="index.html">Oferta</a>
+              <ul>
+                <li><a href="bodykit.html">Body-Kit</a></li>
+                <li><a href="oklejanie.html">Oklejanie aut</a></li>
+                <li><a href="felgi.html">Wymiana felg</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html">Kontakt</a></li>
+            <li id="logowanieprzycisk">
+              <a href="logowanie.html">Logowanie</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="bodykitzdj">
+        <figure id="bodykit">
+          <img src="/css/zdjecia/oklejanie.png" />
+        </figure>
+        <figure id="bodykittitle">
+          <img src="/css/zdjecia/oklejanietitle.png" />
+        </figure>
+      </section>
+      <main class="maindlaoferty">
+        <article>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the
+          </p>
+        </article>
+
+        <form>
+          <h2>Wycienimy twoje zlecenie w ciągu 24h!</h2>
+          <textarea
+            name="texarea"
+            class="textarea"
+            placeholder="Napisz swoje zlecenie"
+          ></textarea>
+          <input type="text" name="email" class="email" placeholder="Email" />
+          <input type="submit" value="Wyślij" class="wyslij" />
+        </form>
+      </main>
+      <footer>
+        <p>&copy; Oliwier Gębczyński 2020</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/bodykitapp.js"></script>
+  </body>
+</html>

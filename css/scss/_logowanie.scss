@@ -1,0 +1,116 @@
+.logowanie {
+    width: 1280px;
+    height: 753px;
+    background-image: url(/css/zdjecia/honda.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formularze {
+    width: 700px;
+    height: 500px;
+    display: flex;
+  }
+  
+  .login {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    opacity: 95%;
+  }
+  
+  .rejestracja {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #999999;
+    opacity: 95%;
+  }
+  
+  .logowanie img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .logowanie form input[type="text"] {
+    width: 150px;
+    border: none;
+    margin-bottom: 30px;
+    height: 22px;
+    padding: 1px;
+    border-radius: 50px;
+    text-align: center;
+    transition-duration: 0.5s;
+  }
+  
+  .logowanie form input[type="password"] {
+    width: 150px;
+    border: none;
+    margin-bottom: 30px;
+    height: 22px;
+    padding: 1px;
+    border-radius: 50px;
+    text-align: center;
+    transition-duration: 1s ;
+    transition-timing-function: ease;
+  }
+  
+  .logowanie h2 {
+    border-bottom: 3px solid #ffd64a;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+  }
+  
+  .logowanie form input[type="text"]:focus {
+    width: 200px;
+    height: 30px;
+    background-color: #ffd64a;
+  }
+  
+  .logowanie form input[type="password"]:focus {
+    transition: width 0.4s ease-in-out;
+    width: 200px;
+    height: 30px;
+    background-color: #ffd64a;
+  }
+  
+  .logowanie .login input[type="text"] {
+    background-color: #999999;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .logowanie .login input[type="password"] {
+    background-color: #999999;
+    color: white;
+  }
+  
+  .logowanie .login input[type="text"]::-webkit-input-placeholder {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .logowanie .login input[type="password"]::-webkit-input-placeholder {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .logowanie input[type="submit"] {
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .logowanie input[type="submit"]:hover {
+    background-color: #ffd64a;
+    box-shadow: 0px 0px 10px #ffd64a, 0px 0px 20px #ffd64a;
+  }

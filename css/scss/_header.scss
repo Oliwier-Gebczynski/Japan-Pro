@@ -1,0 +1,84 @@
+header {
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  header figure {
+    margin-left: 40px;
+  }
+  
+  header li {
+    width: 200px;
+    height: 75px;
+    cursor: pointer;
+  }
+  
+  header ul {
+    list-style-type: none;
+    font-size: 18px;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    display: flex;
+  }
+  
+  header a {
+    text-decoration: none;
+  }
+  
+  header ul li:hover ul {
+    display: block;
+    background-color: white;
+    transition-duration: 0.4s;
+  }
+  
+  header li a {
+    display: block;
+    text-align: center;
+  }
+  
+  header ul li ul li {
+    margin-top: 15px;
+  }
+  
+  header ul li ul {
+    height: 235px;
+    display: none;
+  }
+
+  #logowanieprzycisk {
+    background-color: #ffd64a;
+    border-radius: 50px;
+    width: 150px;
+    margin-left: 65px;
+    margin-right: 15px;
+    height: 35px;
+  }
+  
+  #logowanieprzycisk a {
+    color: white;
+    font-weight: 600;
+  }
+  
+  #zalogowano {
+    background-color: rgb(99, 99, 99);
+    border-radius: 50px;
+    width: 180px;
+    margin-left: 65px;
+    margin-right: 15px;
+    height: 35px;
+  }
+  
+  #zalogowano a {
+    color: white;
+    font-weight: 600;
+  }
+  

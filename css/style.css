@@ -1,0 +1,594 @@
+header {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+}
+
+header figure {
+  margin-left: 40px;
+}
+
+header li {
+  width: 200px;
+  height: 75px;
+  cursor: pointer;
+}
+
+header ul {
+  list-style-type: none;
+  font-size: 18px;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul li:hover ul {
+  display: block;
+  background-color: white;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+header li a {
+  display: block;
+  text-align: center;
+}
+
+header ul li ul li {
+  margin-top: 15px;
+}
+
+header ul li ul {
+  height: 235px;
+  display: none;
+}
+
+#logowanieprzycisk {
+  background-color: #ffd64a;
+  border-radius: 50px;
+  width: 150px;
+  margin-left: 65px;
+  margin-right: 15px;
+  height: 35px;
+}
+
+#logowanieprzycisk a {
+  color: white;
+  font-weight: 600;
+}
+
+#zalogowano {
+  background-color: #636363;
+  border-radius: 50px;
+  width: 180px;
+  margin-left: 65px;
+  margin-right: 15px;
+  height: 35px;
+}
+
+#zalogowano a {
+  color: white;
+  font-weight: 600;
+}
+
+.kontakt {
+  width: 100%;
+  height: 630px;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.strefakontakt {
+  width: 370px;
+  height: 515px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lokalizacja {
+  width: 640px;
+  height: 515px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lokalizacja h2 {
+  font-size: 36px;
+  border-bottom: 3px solid #ffd64a;
+}
+
+.liniakontakt {
+  width: 370px;
+  height: 51px;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kontakt .strefakontakt h2 {
+  width: 40%;
+  height: 55px;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 36px;
+  border-bottom: 3px solid #ffd64a;
+}
+
+img kontakt {
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+}
+
+.logowanie {
+  width: 1280px;
+  height: 753px;
+  background-image: url(/css/zdjecia/honda.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formularze {
+  width: 700px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  opacity: 95%;
+}
+
+.rejestracja {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #999999;
+  opacity: 95%;
+}
+
+.logowanie img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logowanie form input[type="text"] {
+  width: 150px;
+  border: none;
+  margin-bottom: 30px;
+  height: 22px;
+  padding: 1px;
+  border-radius: 50px;
+  text-align: center;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.logowanie form input[type="password"] {
+  width: 150px;
+  border: none;
+  margin-bottom: 30px;
+  height: 22px;
+  padding: 1px;
+  border-radius: 50px;
+  text-align: center;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+.logowanie h2 {
+  border-bottom: 3px solid #ffd64a;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.logowanie form input[type="text"]:focus {
+  width: 200px;
+  height: 30px;
+  background-color: #ffd64a;
+}
+
+.logowanie form input[type="password"]:focus {
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  width: 200px;
+  height: 30px;
+  background-color: #ffd64a;
+}
+
+.logowanie .login input[type="text"] {
+  background-color: #999999;
+  color: white;
+  margin-top: 30px;
+}
+
+.logowanie .login input[type="password"] {
+  background-color: #999999;
+  color: white;
+}
+
+.logowanie .login input[type="text"]::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.logowanie .login input[type="password"]::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.logowanie input[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 50px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.logowanie input[type="submit"]:hover {
+  background-color: #ffd64a;
+  -webkit-box-shadow: 0px 0px 10px #ffd64a, 0px 0px 20px #ffd64a;
+          box-shadow: 0px 0px 10px #ffd64a, 0px 0px 20px #ffd64a;
+}
+
+.oferta {
+  width: 100%;
+  height: 637px;
+  background-color: #f8f8f8;
+  padding-top: 50px;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.oferta h1 {
+  width: 10%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  border-bottom: 3px solid #ffd64a;
+  width: 10%;
+}
+
+.trzyzdjecia {
+  width: 100%;
+  height: 375px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.phototitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  width: 350px;
+}
+
+.phototitle h3 {
+  font-size: 36px;
+  border-bottom: 3px solid #ffd64a;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+#ofertamenu {
+  position: absolute;
+  z-index: 3;
+  top: 620px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Red Hat Display";
+  color: #686868;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#bodykit {
+  width: 100%;
+  height: 600px;
+}
+
+#stronaglownabodykit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#bodykittitle {
+  position: absolute;
+  z-index: 10;
+  opacity: 90%;
+  top: 155px;
+}
+
+.maindlaoferty {
+  width: 100%;
+  height: 600px;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bodykitzdj {
+  padding-top: 80px;
+}
+
+.maindlaoferty article p {
+  font-size: 21px;
+  text-align: center;
+}
+
+.maindlaoferty article {
+  width: 510px;
+  height: 310px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+  padding: 1.7%;
+}
+
+.container form {
+  width: 520px;
+  height: 310px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+}
+
+.maindlaoferty h2 {
+  font-size: 22px;
+  width: 77%;
+  margin-top: 5%;
+  border-bottom: 3px solid #ffd64a;
+  height: 10%;
+}
+
+.container form textarea {
+  width: 96%;
+  height: 40%;
+  margin: 2%;
+  border: none;
+  padding: 2%;
+  background-color: #f8f8f8;
+}
+
+.container form input[type="text"] {
+  width: 20%;
+  height: 8%;
+  margin-left: 2%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border: none;
+  background-color: #f8f8f8;
+}
+
+.container form input[type="text"]:focus {
+  width: 50%;
+  background-color: #ffd54a85;
+}
+
+.container form input[type="submit"] {
+  background-color: #ffd64a;
+  width: 10%;
+  height: 8%;
+  margin-left: 2%;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.container form input[type="submit"]:hover {
+  -webkit-box-shadow: 0px 0px 10px #ffd64a, 0px 0px 20px #ffd64a;
+          box-shadow: 0px 0px 10px #ffd64a, 0px 0px 20px #ffd64a;
+}
+
+main {
+  width: 100%;
+  height: 637px;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main figure {
+  width: 100%;
+  height: 260px;
+}
+
+main article {
+  width: 75%;
+  height: 200px;
+  text-align: center;
+  font-size: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+main article h2 {
+  font-size: 36px;
+  border-bottom: 3px solid #ffd64a;
+  width: 15%;
+}
+/*# sourceMappingURL=style.css.map */
